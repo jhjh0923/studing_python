@@ -1,3 +1,8 @@
+from pathlib import Path
+
+data_path = Path() / "data"
+data_path.mkdir(parents=True, exist_ok=True)
+
 def shopping(shop_file):
     shop_dict = {}
     with open(data_path / shop_file, 'r') as f:
