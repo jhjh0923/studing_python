@@ -1,6 +1,7 @@
 from pathlib import Path
 
 def shopping(shop_file):
+    print(data_path.absolute())
     shop_dict = {}
     with open(data_path.absolute() / shop_file, 'r') as f:
       next(f)
