@@ -1,6 +1,7 @@
 from pathlib import Path
 
-data_path = content / "data"
+content_path = Path('/') / 'content'
+data_path = content_path / "data"
 data_path.mkdir(parents=True, exist_ok=True)
 
 def shopping(shop_file):
