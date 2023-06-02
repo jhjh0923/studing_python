@@ -1,9 +1,8 @@
 from pathlib import Path
 
 def shopping(shop_file):
-    print(data_path.absolute())
     shop_dict = {}
-    with open(data_path.absolute() / shop_file, 'r') as f:
+    with open(/content/data / shop_file, 'r') as f:
       next(f)
       for line in f:
         elements = line.strip().split()
