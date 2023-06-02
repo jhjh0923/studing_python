@@ -1,7 +1,7 @@
 def shopping(shop_file):
     shop_dict = {}
     with open(data_path / shop_file, 'r') as f:
-    	next(f)
+      next(f)
       for line in f:
         elements = line.strip().split()
         if len(elements) == 2:
