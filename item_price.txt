@@ -1,0 +1,6 @@
+def item_price(shop_file, item):
+  price_dict = shopping(shop_file)
+
+  return price_dict[item]
+
+print(item_price("shopA.txt", '김치'))
