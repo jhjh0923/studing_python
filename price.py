@@ -1,8 +1,8 @@
 from pathlib import Path
 
-def shopping(shop_file, data_path):
+def shopping(shop_file, apath):
     shop_dict = {}
-    with open(data_path / shop_file, 'r') as f:
+    with open(apath / shop_file, 'r') as f:
         next(f)
         for line in f:
             elements = line.strip().split()
